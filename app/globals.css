@@ -70,3 +70,8 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+/* for consistent radius for card in cardglow */
+@theme inline {
+  --radius-inherit: inherit
+}
